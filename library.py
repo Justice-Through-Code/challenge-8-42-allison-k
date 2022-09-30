@@ -9,13 +9,13 @@ books = [
 # 1.1 TODO: Create a function named 'available_books' to print the books list-- one book title on each line
 # Parameters: Not needed for this function
 # Return: Not needed for this function
-def availible_books():
+def available_books():
     for book in books:
         print(book)
 
 
 # 1.2 TODO: Run the 'available_books' function
-availible_books()
+available_books()
 
 
 print('-----------------------')
@@ -31,7 +31,7 @@ check_out("SAPIENS")
 
 
 # 1.5 TODO: Run the 'available_books' function again to see if the book was checked out
-availible_books()
+available_books()
 
 
 print('-----------------------')
@@ -47,7 +47,7 @@ check_in("SAPIENS")
 
 
 # 1.8 TODO: Run the 'available_books' function to see if the book was checked in
-availible_books()
+available_books()
 
 
 print('-----------------------')
