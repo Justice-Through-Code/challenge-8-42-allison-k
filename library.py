@@ -56,9 +56,9 @@ print('-----------------------')
 # Return: Not needed for this function
 def search_by_name(book_title):
     if book_title in books:
-        print("Availible")
+        print("Available")
     else:
-        print("Not Availible")
+        print("Not Available")
 
 
 # 1.10 TODO: Search for the book 'JUST MERCY'
